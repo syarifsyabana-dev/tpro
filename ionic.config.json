@@ -1,0 +1,7 @@
+{
+  "name": "Absen",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}

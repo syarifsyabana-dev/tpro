@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 1.2 !important;
+}
+.main {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+}
+
+.login {
+  padding: .5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login button {
+  margin-top: .5rem;
+}
+
+.my-container {
+  width: 100%;
+}
+
+.button-100 {
+  width: 100%;
+}
+
+.checkbutton {
+  position: absolute;
+  width: calc(100vw - 1rem);
+  bottom: 0;
+  margin: .5rem;
+  padding: .5rem;
+  background-color: rgb(255, 255, 255);
+}
+
+.akun {
+  position: absolute;
+  width: calc(100vw - 1rem);
+  top: 0;
+  margin: .5rem;
+  padding: .5rem;
+  background-color: rgb(255, 255, 255);
+}
